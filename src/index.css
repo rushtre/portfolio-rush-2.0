@@ -12,11 +12,11 @@
 
 :root {
     --bg-color: #1f1f38; 
-    --bg-color-variant: #2c2c6c; 
-    --primary-color: #4db5ff; 
-    --secondary-color: rgba(77, 181, 255, 0.4); 
+    --bg-color-variant: #3C3F58; 
+    --primary-color: #3BBA9C;
+    --secondary-color: #43455C; 
     --white: #fff; 
-    --light: rgba(255, 255, 255, 0.6); 
+    --light: #707793; 
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -63,6 +63,7 @@ a:hover {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5 {

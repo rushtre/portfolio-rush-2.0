@@ -29,7 +29,7 @@ header {
     gap: .75rem;
     position: absolute;
     left: 0; 
-    bottom: 3rem;
+    bottom: 15rem;
 }
 
 .socials::after {
@@ -48,7 +48,18 @@ header {
     left: calc(50% - 11rem);
     margin-top: 2.85rem;
     overflow: hidden;
-    padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    
+}
+
+.resume {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 20rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: .85rem;
+    cursor: pointer;
 }
 
 
@@ -68,5 +79,14 @@ header {
 
     .socials {
         display: none;
+    }
+
+    .resume {
+        left: -2.5rem;
+        bottom: 37.5rem;
+        position: absolute;
+        padding: .5rem .5rem .5rem .5rem;
+        margin-top: 1rem;
+        transform: rotate(0deg);
     }
 }
