@@ -77,7 +77,7 @@ section > h2 {
 
 .container {
     width: var(--container-width-lg);
-    margin: 0, auto;
+    margin: auto;
 }
 
 .text-light {

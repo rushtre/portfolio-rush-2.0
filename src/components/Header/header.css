@@ -1,0 +1,72 @@
+header {
+    height: 100vh;
+    padding-top: 6.5rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* Header buttons for resume and contact */
+
+.info {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+/* Header social accounts */
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
+    position: absolute;
+    left: 0; 
+    bottom: 3rem;
+}
+
+.socials::after {
+    content: '';
+    width: 1px;
+    height: 2.5rem;
+    background-color: var(--primary-color);
+}
+
+/* Header portrait */
+
+.me {
+    position: absolute;
+    width: 22rem;
+    height: 30rem;
+    left: calc(50% - 11rem);
+    margin-top: 2.85rem;
+    overflow: hidden;
+    padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+/* media queries (tablets) */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 95vh;
+    }
+
+}
+
+/* media queries (mobile devices) */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .socials {
+        display: none;
+    }
+}
