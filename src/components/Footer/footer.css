@@ -1,0 +1,15 @@
+footer {
+    height: 25vh;
+    background: var(--bg-color);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.footer-icon {
+    margin-top: 4.5rem;
+    font-size: .70rem;
+}

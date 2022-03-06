@@ -3,7 +3,11 @@ import './footer.css';
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <footer>
+            <div className='footer-container'>
+                <a href='#' className='footer-icon'> &copy; 2022 Rush Development</a>
+            </div>
+        </footer>
     )
 };
 
