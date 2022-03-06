@@ -42,12 +42,14 @@ small {
     padding: 1.75rem;
     text-align: center;
     transition: var(--transition);
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.35); 
 }
 
 .about-card:hover {
     background: transparent;
     border-color: var(--primary-color);
     cursor: default;
+    box-shadow: none;
 }
 
 .about-icon {
