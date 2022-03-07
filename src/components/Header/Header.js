@@ -6,8 +6,8 @@ import './header.css';
 
 const Header = () => {
     return (
-        <header>
-            <div className='container header_container'>
+        <header id='header'>
+            <div className='container header-container'>
                 <h1>Tre' Rush</h1>
                 <h5 className='text-light'>Fullstack Developer</h5>
                 <Socials />

@@ -55,6 +55,10 @@ input, textarea {
     color: var(--white); 
 }
 
+input:hover, textarea:hover {
+    border-color: var(--primary-color);
+}
+
 /* media queries (tablets) */
 @media screen and (max-width: 1024px) {
     .contact-container {
