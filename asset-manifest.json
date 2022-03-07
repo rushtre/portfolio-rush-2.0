@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Rush0218/portfolio-rush-2.0/static/css/main.adb3fd12.css",
+    "main.js": "/Rush0218/portfolio-rush-2.0/static/js/main.954779c7.js",
+    "static/media/me(four).png": "/Rush0218/portfolio-rush-2.0/static/media/me(four).d8d8ea1db4692d23b3ad.png",
+    "static/media/spottr-img.jpg": "/Rush0218/portfolio-rush-2.0/static/media/spottr-img.2867fe5374730b3dc553.jpg",
+    "static/media/sky-img.jpg": "/Rush0218/portfolio-rush-2.0/static/media/sky-img.abea9010e87ce3889116.jpg",
+    "static/media/run-buddy-img.jpg": "/Rush0218/portfolio-rush-2.0/static/media/run-buddy-img.84ce690a0db222c51273.jpg",
+    "static/media/deep-thoughts-img.jpg": "/Rush0218/portfolio-rush-2.0/static/media/deep-thoughts-img.64f4fdced47d1319bf54.jpg",
+    "static/media/express-notes-img.jpg": "/Rush0218/portfolio-rush-2.0/static/media/express-notes-img.715f8b00508bf39998f0.jpg",
+    "static/media/music-dive-img.jpg": "/Rush0218/portfolio-rush-2.0/static/media/music-dive-img.c8fcae67f014b383aea6.jpg",
+    "static/media/DSC07374(2).jpg": "/Rush0218/portfolio-rush-2.0/static/media/DSC07374(2).aed7566354b8ab5c4606.jpg",
+    "static/media/My-resume-2022.pdf": "/Rush0218/portfolio-rush-2.0/static/media/My-resume-2022.2cbb8be1dd4470128eff.pdf",
+    "index.html": "/Rush0218/portfolio-rush-2.0/index.html",
+    "main.adb3fd12.css.map": "/Rush0218/portfolio-rush-2.0/static/css/main.adb3fd12.css.map",
+    "main.954779c7.js.map": "/Rush0218/portfolio-rush-2.0/static/js/main.954779c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adb3fd12.css",
+    "static/js/main.954779c7.js"
+  ]
+}
