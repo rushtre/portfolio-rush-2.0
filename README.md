@@ -31,7 +31,7 @@ A personal portfolio application.
 When the application is installed, run `npm start` to launch application locally. 
 
 ## Link
-
+https://rush0218.github.io/portfolio-rush-2.0/
 
 ## Screenshot
 ![Alt](src/assets/react-screenshot.png)
