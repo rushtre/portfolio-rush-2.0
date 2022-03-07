@@ -1,6 +1,7 @@
 footer {
     height: 25vh;
     background: var(--bg-color);
+    bottom: 0;
 }
 
 .footer-container {
