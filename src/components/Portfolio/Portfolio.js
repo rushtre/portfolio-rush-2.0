@@ -45,7 +45,7 @@ const Portfolio = () => {
                     <h3>FiveFires</h3>
                     <div className='portfolio-btn'>
                         <a href='https://github.com/AshtonBrugh/project-three' className='btn' target='_blank'>Github</a>
-                        <a href='/' className='btn btn-primary' target='_blank'>Application</a>
+                        <a href='https://immense-fortress-45339.herokuapp.com/' className='btn btn-primary' target='_blank'>Application</a>
                     </div>
                 </article>
 
