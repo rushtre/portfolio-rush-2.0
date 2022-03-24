@@ -8,6 +8,7 @@ import img3 from '../../assets/music-dive-img.jpg';
 import img4 from '../../assets/run-buddy-img.jpg';
 import img5 from '../../assets/deep-thoughts-img.jpg';
 import img6 from '../../assets/express-notes-img.jpg';
+import img7 from '../../assets/shopping.jpg'
 
 
 
@@ -16,16 +17,15 @@ const Portfolio = () => {
         <section id='portfolio'>
             <h5>Recent Work</h5>
             <h2>Portfolio</h2>
-
             <div className='container portfolio-container'>
                 <article className='portfolio-item'>
                     <div className='portfolio-img'>
-                        <img src={img1} alt='' />
+                        <img src={img3} alt='' />
                     </div>
-                    <h3>Sky</h3>
+                    <h3>Music Dive</h3>
                     <div className='portfolio-btn'>
-                        <a href='https://github.com/Rush0218/sky' className='btn' target='_blank'>Github</a>
-                        <a href='https://rush0218.github.io/sky/' className='btn btn-primary' target='_blank'>Application</a>
+                        <a href='https://github.com/Rush0218/project-1' className='btn' target='_blank'>Github</a>
+                        <a href='https://rush0218.github.io/project-1/' className='btn btn-primary' target='_blank'>Application</a>
                     </div>
                 </article>
                 <article className='portfolio-item'>
@@ -40,14 +40,15 @@ const Portfolio = () => {
                 </article>
                 <article className='portfolio-item'>
                     <div className='portfolio-img'>
-                        <img src={img3} alt='' />
+                        <img src={img7} alt='' />
                     </div>
-                    <h3>Music Dive</h3>
+                    <h3>FiveFires</h3>
                     <div className='portfolio-btn'>
-                        <a href='https://github.com/Rush0218/project-1' className='btn' target='_blank'>Github</a>
-                        <a href='https://rush0218.github.io/project-1/' className='btn btn-primary' target='_blank'>Application</a>
+                        <a href='https://github.com/AshtonBrugh/project-three' className='btn' target='_blank'>Github</a>
+                        <a href='/' className='btn btn-primary' target='_blank'>Application</a>
                     </div>
                 </article>
+
                 <article className='portfolio-item'>
                     <div className='portfolio-img'>
                         <img src={img4} alt='' />
@@ -70,12 +71,12 @@ const Portfolio = () => {
                 </article>
                 <article className='portfolio-item'>
                     <div className='portfolio-img'>
-                        <img src={img6} alt='' />
+                        <img src={img1} alt='' />
                     </div>
-                    <h3>Express Notes</h3>
+                    <h3>Sky</h3>
                     <div className='portfolio-btn'>
-                        <a href='https://github.com/Rush0218/express-notes' className='btn' target='_blank'>Github</a>
-                        <a href='https://rushnotesexpress.herokuapp.com' className='btn btn-primary' target='_blank'>Application</a>
+                        <a href='https://github.com/Rush0218/sky' className='btn' target='_blank'>Github</a>
+                        <a href='https://rush0218.github.io/sky/' className='btn btn-primary' target='_blank'>Application</a>
                     </div>
                 </article>
             </div>
