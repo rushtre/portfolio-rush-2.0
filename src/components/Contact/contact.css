@@ -1,9 +1,10 @@
 .contact-container {
-    height: 100vh;
+    height: 65vh;
     width: 58%; 
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%; 
+    margin-bottom: 18rem;
 }
 
 .contact-options {
@@ -65,6 +66,7 @@ input:hover, textarea:hover {
     .contact-container {
         grid-template-columns: 1fr;
         gap: 2rem;
+        margin-bottom: 40rem;
     }
 }
 
@@ -72,5 +74,6 @@ input:hover, textarea:hover {
 @media screen and (max-width: 600px) {
     .contact-container {
         width: var( --container-width-md);
+        margin-bottom: 35rem;
     }
 }

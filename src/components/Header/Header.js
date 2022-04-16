@@ -1,6 +1,6 @@
 import React from 'react';
 import Me from '../../assets/me(four).png'
-import CV from '../../assets/My-resume-2022.pdf';
+import Resume from '../../assets/My-resume-2022.pdf';
 import Socials from './Socials';
 import './header.css';
 
@@ -14,7 +14,7 @@ const Header = () => {
                 <div className='me'>
                     <img src={Me} alt='me' />
                 </div>
-                <a href={CV} download className='resume'>Download CV</a>
+                <a href={Resume} download className='resume'>Download Resume</a>
             </div>
         </header>
     )

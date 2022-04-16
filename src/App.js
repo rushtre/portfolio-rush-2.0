@@ -37,18 +37,14 @@ function App() {
           <>
             <Header />
             <About />
-            <Experience />
           </>
         ) : !headerSelected && aboutSelected && !experienceSelected && !contactSelected && !portfolioSelected ? (
           <>
             <Header />
             <About />
-            <Experience />
           </>
         ) : !headerSelected && !aboutSelected && experienceSelected && !contactSelected && !portfolioSelected ? (
           <>
-            <Header />
-            <About />
             <Experience />
           </>
         ) : !headerSelected && !aboutSelected && !experienceSelected && contactSelected && !portfolioSelected ? (

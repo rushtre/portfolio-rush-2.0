@@ -1,11 +1,14 @@
+
 .experience-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    height: 65vh;
 }
 
 .experience-container > div {
     background: var(--bg-color-variant);
+    height: 25rem;
     padding: 2.5rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent; 
@@ -48,6 +51,7 @@
 @media screen and (max-width: 1024px) {
     .experience-container {
         grid-template-columns: 1fr;
+        margin-bottom: 35rem;
     }
     .experience-container > div {
         width: 80%;
@@ -63,7 +67,8 @@
 /* media queries (mobile devices) */
 @media screen and (max-width: 600px) {
     .experience-container {
-        gap: 1rem;
+        gap: 1.75rem;
+        margin-bottom: 30rem;
     }
 
     .experience-container > div {

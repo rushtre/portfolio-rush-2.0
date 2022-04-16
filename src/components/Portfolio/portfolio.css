@@ -3,10 +3,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
     height: 100vh;
+    margin-bottom: 28rem;
 }
 
 .portfolio-item {
     background: var(--bg-color-variant);
+    height: 30rem;
     padding: .90rem; 
     border-radius: 1.85rem;
     border: 1px solid transparent;
@@ -38,15 +40,55 @@
 @media screen and (max-width: 1024px) {
    .portfolio-container {
        grid-template-columns: 1fr 1fr;
-       gap: 1rem; 
+       gap: 1.75rem; 
+       margin-bottom: 50rem;
+   }
+
+   .portfolio-item {
+        height: 25rem;
+   }
+   
+}
+
+
+/* media queries (mobile devices) */
+@media screen and (max-width: 680px) {
+   .portfolio-container {
+       grid-template-columns: 1fr;
+       gap: 1.75rem;
+       margin-bottom: 125rem;
+   }
+
+   .portfolio-item {
+       height: 28rem;
    }
 
 }
 
 /* media queries (mobile devices) */
-@media screen and (max-width: 600px) {
-   .portfolio-container {
-       grid-template-columns: 1fr;
-       gap: .85rem;
-   }
-}
+@media screen and (max-width: 580px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
+        gap: 1.75rem;
+        margin-bottom: 140rem;
+    }
+ 
+    .portfolio-item {
+        height: 28rem;
+    }
+ 
+ }
+
+/* media queries (mobile devices) */
+@media screen and (max-width: 480px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
+        gap: 1.75rem;
+        margin-bottom: 125rem;
+    }
+ 
+    .portfolio-item {
+        height: 25rem;
+    }
+ 
+ }

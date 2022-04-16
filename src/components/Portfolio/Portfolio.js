@@ -63,10 +63,10 @@ const Portfolio = () => {
                     <div className='portfolio-img'>
                         <img src={img5} alt='' />
                     </div>
-                    <h3>Deep Thoughts</h3>
+                    <h3>Discourse</h3>
                     <div className='portfolio-btn'>
-                        <a href='https://github.com/Rush0218/deep-thoughts' className='btn' target='_blank'>Github</a>
-                        <a href='https://deep-thoughts-rush0218.herokuapp.com' className='btn btn-primary' target='_blank'>Application</a>
+                        <a href='https://github.com/Rush0218/discourse' className='btn' target='_blank'>Github</a>
+                        <a href='https://discourse-rush.herokuapp.com' className='btn btn-primary' target='_blank'>Application</a>
                     </div>
                 </article>
                 <article className='portfolio-item'>

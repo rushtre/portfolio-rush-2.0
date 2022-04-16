@@ -62,6 +62,10 @@ a:hover {
     color: var(--white); 
 }
 
+a:active {
+    color: var(--primary-color);
+}
+
 section {
     margin-top: 5.5rem;
 }

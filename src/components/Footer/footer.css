@@ -1,7 +1,8 @@
 footer {
     height: 25vh;
     background: var(--bg-color);
-    bottom: 0;
+    position: relative;
+    bottom: 0; 
 }
 
 .footer-container {
@@ -11,6 +12,20 @@ footer {
 }
 
 .footer-icon {
-    margin-top: 4.5rem;
+    margin-top: 4rem;
     font-size: .70rem;
 }
+
+/* media queries (tablets) */
+@media screen and (max-width: 1024px) {
+    .footer-container {
+        bottom: 0; 
+    } 
+ }
+ 
+ /* media queries (mobile devices) */
+ @media screen and (max-width: 600px) {
+    .footer-icon {
+        margin-top: 2.5rem;
+    }
+ }
