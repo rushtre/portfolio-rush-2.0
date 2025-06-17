@@ -1,9 +1,9 @@
 # Portfolio 2.0 
 
 <p>
-    <img src="https://img.shields.io/github/repo-size/rush0218/portfolio-rush-2.0" />
-    <img src="https://img.shields.io/github/languages/top/rush0218/portfolio-rush-2.0"  />
-    <img src="https://img.shields.io/github/last-commit/rush0218/portfolio-rush-2.0" />
+    <img src="https://img.shields.io/github/repo-size/rushtre/portfolio-rush-2.0" />
+    <img src="https://img.shields.io/github/languages/top/rushtre/portfolio-rush-2.0"  />
+    <img src="https://img.shields.io/github/last-commit/rushtre/portfolio-rush-2.0" />
 </p>
 
 
@@ -31,7 +31,7 @@ A personal portfolio application.
 When the application is installed, run `npm start` to launch application locally. 
 
 ## Link
-https://rush0218.github.io/portfolio-rush-2.0/
+https://rushtre.github.io/portfolio-rush-2.0/
 
 ## Screenshot
 ![Alt](src/assets/react-screenshot.png)
@@ -42,5 +42,5 @@ https://rush0218.github.io/portfolio-rush-2.0/
 
 ## Contributing
 
-Made with ❤️ by [Tre'](https://github.com/Rush0218) 
+Made with ❤️ by [Tre'](https://github.com/Rushtre) 
 
